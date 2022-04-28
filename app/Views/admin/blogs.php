@@ -67,17 +67,29 @@
                 <td><?php echo $listdat->dates;?></td>
                 <td><?php echo $listdat->statu;?></td>
                 <td>
-                    <div class="btn-group">
-                        <div class="dropdown-menu" role="menu" style="">
-                            <?php
-                        if($listdat->statu == 'passive'){ echo("<a class='dropdown-item' href='#".$listdat->id ."'>Activet</a>");
-                                                           
-                                                           }
-                                                           else{ echo("<a class='dropdown-item' href='/admin/porfo/pass/".$listdat->id ."'>Passive</a>");} ?>
-                            <a class='dropdown-item' href='/admin/porfo/del/<?php echo $listdat->id; ?>'>Delete</a>
-
-                        </div>
-                    </div>
+                <?php
+                if ($listdat->statu ==  'active')
+                                                 {
+                                                    echo("
+                                                    <select>
+                                                    <option></option>
+                                                    <option>Passive</option>
+                                                    <option>Delete</option>
+                                                    </select>
+                                                    ");
+                                                }else
+                                                {
+                                                    echo("
+                                                    <select>
+                                                    <option></option>
+                                                    <option>Active</option>
+                                                    <option>Delete</option>
+                                                    </select>
+                                                    ");
+                                                }
+                                                
+                                                
+                                                ;?>
                 </td>
             </tr>
 

@@ -6,6 +6,21 @@ class Form extends BaseController
 {
     public function adduser()
     {
+        $db = \Config\Database::connect();
+        $fname = $this->request->getVar('fname');
+        $uname = $this->request->getVar('uname');
+        $pass = $this->request->getVar('passw');
+        $hash = openssl_encrypt($pass, "AES-128-ECB", "amanisthebest");
+        $sql = "INSERT INTO user( FullName,username,pass,statu) VALUES (?,?,?,?)";
+        $query=$db->query($sql, [$fname,$uname,$hash,'active']);  
+        if($query)
+        {
+            return redirect()->to(base_url('users')); 
+        }else
+        {
+            echo '<script>alert("Query not successfull")</script>';
+            return redirect()->to(base_url('dashboard')); 
+        }
         return view('index');
     }
     public function addblog()
@@ -16,7 +31,7 @@ class Form extends BaseController
         $file = $this->request->getFile('cover');
         $content = $this->request->getVar('content');
         $imagename=$file->getName();
-        $file->move('public/images', $imagename);
+        $file->move('images/uploads', $imagename);
         $sql = "INSERT INTO blogs( posted_by, title, content, images, statu) VALUES (?,?,?,?,?)";
         $query=$db->query($sql, [$fname,$blogtitle,$content,$imagename,'active']);  
         if($query)
@@ -49,6 +64,7 @@ class Form extends BaseController
     }
     public function addgallery()
     {
+
         return view('index');
     }
 

@@ -21,7 +21,7 @@
                             accept="image/png, image/gif, image/jpeg">
                     </div>
                     </br>
-                <button class="primary-button">Register</button>
+                    <button class="primary-button">Register</button>
                 </div>
             </div>
         </div>
@@ -44,7 +44,43 @@
             </tr>
         </thead>
         <tbody>
+            <?php $i=1; 
+            foreach ($list as $listdat) {?>
+            <tr class="odd">
+                <td class="dtr-control sorting_1" tabindex="0"><?php echo $i?></td>
+                <td><?php echo $listdat->title;?></td>
+                <td><?php echo $listdat->images;?></td>
+                <td><?php echo $listdat->statu;?></td>
+                <td>
+                <?php
+                if ($listdat->statu ==  'active')
+                                                 {
+                                                    echo("
+                                                    <select>
+                                                    <option></option>
+                                                    <option>Passive</option>
+                                                    <option>Delete</option>
+                                                    </select>
+                                                    ");
+                                                }else
+                                                {
+                                                    echo("
+                                                    <select>
+                                                    <option></option>
+                                                    <option>Active</option>
+                                                    <option>Delete</option>
+                                                    </select>
+                                                    ");
+                                                }
+                                                
+                                                
+                                                ;?>
+                </td>
+            </tr>
 
+            <?php 
+                                        $i=$i+1;
+                                        } ?>
         </tbody>
         <tfoot>
             <tr>

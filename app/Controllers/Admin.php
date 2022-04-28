@@ -35,11 +35,23 @@ class Admin extends BaseController
     }
     public function gallery()
     {
-        return view('admin/gallery');
+        $db = \Config\Database::connect();
+        $db = db_connect();
+        $sql = "SELECT * FROM gallery";
+        $query=$db->query($sql);  
+        $results = $query->getResult();
+        $data['list'] = $results;
+        return view('admin/gallery',$data);
     }
     public function users()
     {
-       return view('admin/users');
+        $db = \Config\Database::connect();
+        $db = db_connect();
+        $sql = "SELECT * FROM user";
+        $query=$db->query($sql);  
+        $results = $query->getResult();
+        $data['list'] = $results;
+        return view('admin/users',$data);
     }
     public function signout()
     {
@@ -54,7 +66,7 @@ class Admin extends BaseController
         $hash = openssl_encrypt($password, "AES-128-ECB", "amanisthebest");
         $db = \Config\Database::connect();
         $db = db_connect();
-        $sql = "SELECT * FROM user WHERE (username=? AND password=? AND status='active')";
+        $sql = "SELECT * FROM user WHERE (username=? AND pass=? AND statu='active')";
         $query=$db->query($sql, [$email,$hash]);  
         $results = $query->getResult();
         
