@@ -64,7 +64,21 @@ class Form extends BaseController
     }
     public function addgallery()
     {
-
+        $db = \Config\Database::connect();
+        $title = $this->request->getVar('title');
+        $file = $this->request->getFile('cover');
+        $imagename=$file->getName();
+        $file->move('images/uploads/gallery', $imagename);
+        $sql = "INSERT INTO gallery( title,images, statu) VALUES (?,?,?)";
+        $query=$db->query($sql, [$title,$imagename,'active']);  
+        if($query)
+        {
+            return redirect()->to(base_url('gallery')); 
+        }else
+        {
+            echo '<script>alert("Query not successfull")</script>';
+            return redirect()->to(base_url('dashboard')); 
+        }
         return view('index');
     }
 

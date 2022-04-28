@@ -294,8 +294,7 @@
     <!-- End Services -->
 
     <!-- Start Appointment -->
-    <div id="appointment" class="appointment-main">
-        <div class="container">
+      
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-box">
@@ -304,76 +303,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="well-block">
-                        <div class="well-title">
-                            <h2>Book an Appointment</h2>
-                        </div>
-                        <form>
-                            <!-- Form start -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="name">Name</label>
-                                        <input id="name" name="name" type="text" placeholder="Name"
-                                            class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Text input-->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="email">Email</label>
-                                        <input id="email" name="email" type="text" placeholder="E-Mail"
-                                            class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Text input-->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="date">Preferred Date</label>
-                                        <input id="date" name="date" type="text" placeholder="Preferred Date"
-                                            class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Select Basic -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="time">Preferred Time</label>
-                                        <select id="time" name="time" class="form-control">
-                                            <option value="8:00 to 9:00">8:00 to 9:00</option>
-                                            <option value="9:00 to 10:00">9:00 to 10:00</option>
-                                            <option value="10:00 to 1:00">10:00 to 1:00</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- Select Basic -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label class="control-label" for="appointmentfor">Department</label>
-                                        <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                            <option value="Choose Department">Choose Department</option>
-                                            <option value="Gynacology">Gynacology</option>
-                                            <option value="Dermatologist">Dermatologist</option>
-                                            <option value="Orthology">Orthology</option>
-                                            <option value="Anesthesiology">Anesthesiology</option>
-                                            <option value="Ayurvedic">Ayurvedic</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- Button -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <button id="singlebutton" name="singlebutton" class="new-btn-d br-2">Make An
-                                            Appointment</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                        <!-- form end -->
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
                     <div class="well-block">
                         <div class="well-title">
                             <h2>Why Appointment with Us</h2>
@@ -404,112 +333,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- End Appointment -->
-
-    <!-- Start Gallery -->
-    <div id="gallery" class="gallery-box">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-box">
-                        <h2>Gallery</h2>
-                        <p>Our List of Gallery</p>
-                    </div>
-                </div>
-            </div>
-            <div class="popup-gallery row clearfix">
-                <?php foreach($gallery as $image)
-						{?>
-                <div class="col-md-3 col-sm-6">
-                    <div class="box-gallery">
-                        <img src="<?=base_url('images/uploads/gallery/'.$image->images)?>" alt="">
-                        <div class="box-content">
-                            <h3 class="title"><?php echo $image->title ?></h3>
-                            <ul class="icon">
-                                <li><a href="<?=base_url('images/uploads/gallery/'.$image->images)?>"><i
-                                            class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <?php
-		     	}
-			    ?>
-            </div>
-        </div>
-    </div>
-    <!-- End Gallery -->
-
-    <!-- Start Team -->
-    <div id="team" class="team-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-box">
-                        <h2>Our Doctor</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="images/img-1.jpg" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Williamson</h3>
-                            <span class="post">web developer</span>
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="images/img-2.jpg" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">kristina</h3>
-                            <span class="post">Web Designer</span>
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="images/img-3.jpg" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Steve Thomas</h3>
-                            <span class="post">web developer</span>
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 
@@ -556,143 +379,14 @@
             </div>
         </div>
     </div>
-    <!-- End Blog -->
 
-    <!-- Start Contact -->
-    <div id="contact" class="contact-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-box">
-                        <h2>Contact us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-lg-12 col-xs-12">
-                    <div class="contact-block">
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name"
-                                            placeholder="Your Name" required data-error="Please enter your name">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your Email" id="email" class="form-control"
-                                            name="name" required data-error="Please enter your email">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your number" id="number" class="form-control"
-                                            name="number" required data-error="Please enter your number">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Your Message" rows="8"
-                                            data-error="Write your message" required></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="submit-button text-center">
-                                        <button class="btn btn-common" id="submit" type="submit">Send
-                                            Message</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-12 col-xs-12">
-                    <div class="left-contact">
-                        <h2>Address</h2>
-                        <div class="media cont-line">
-                            <div class="media-left icon-b">
-                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                            </div>
-                            <div class="media-body dit-right">
-                                <h4>Address</h4>
-                                <p>Fleming 196 Woodside Circle Mobile, FL 36602</p>
-                            </div>
-                        </div>
-                        <div class="media cont-line">
-                            <div class="media-left icon-b">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                            </div>
-                            <div class="media-body dit-right">
-                                <h4>Email</h4>
-                                <a href="#">demoinfo@gmail.com</a><br>
-                                <a href="#">demoinfo@gmail.com</a>
-                            </div>
-                        </div>
-                        <div class="media cont-line">
-                            <div class="media-left icon-b">
-                                <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                            </div>
-                            <div class="media-body dit-right">
-                                <h4>Phone Number</h4>
-                                <a href="#">12345 67890</a><br>
-                                <a href="#">12345 67890</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <!-- End Contact -->
-
-    <!-- Start Subscribe -->
-    <div class="subscribe-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="subscribe-inner text-center clearfix">
-                        <h2>Subscribe</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut
-                            labore et dolore magna aliqua.</p>
-                        <form action="#" method="post">
-                            <div class="form-group">
-                                <input class="form-control-1" id="email-1" name="email" placeholder="Email Address"
-                                    required="" type="text">
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="new-btn-d br-2">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Subscribe -->
-
-    <!-- Start Footer -->
     <footer class="footer-box">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">Precision
                             Clinical
-                            Advanced Labratory</a> Design By : <a href="https://html.design/">html
-                            design</a></p>
+                            Advanced Labratory</a> Design By : <a href="https://html.design/"></a></p>
                 </div>
             </div>
         </div>

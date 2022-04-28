@@ -3,7 +3,7 @@
 <div class="height-100 bg-light">
     <h4>Gallary Image List</h4>
     </br>
-    <form class="well form-horizontal" action="form/adduser" method="post" enctype='multipart/form-data'>
+    <form class="well form-horizontal" action="form/addgallery" method="post" enctype='multipart/form-data'>
         <div class="form-group">
             <div class="row">
                 <div class="col-md-4 inputGroupContainer">
