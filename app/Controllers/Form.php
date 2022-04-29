@@ -44,6 +44,15 @@ class Form extends BaseController
         }
         return view('index');
     }
+    public function bookapp()
+    {
+    $email = \Config\Services::email();
+    $email->setFrom('test@gmail.com', 'Robel Yohannes');
+    $email->setTo('robelict94@gmail.com');
+    $email->setSubject('Booking Appointment');
+    $email->setMessage('Testing the email class.');
+    $email->send();
+    }
     public function addslider()
     {
         $db = \Config\Database::connect();

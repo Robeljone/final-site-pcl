@@ -1,0 +1,151 @@
+CRITICAL - 2022-04-29 01:19:26 --> Undefined property: App\Controllers\Form::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:21:30 --> Undefined property: App\Controllers\Form::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:21:46 --> syntax error, unexpected token "class", expecting "," or ";"
+#0 C:\xampp\htdocs\final-site\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('form/bookapp')
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('form/bookapp')
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:23:56 --> syntax error, unexpected token "class", expecting "," or ";"
+#0 C:\xampp\htdocs\final-site\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('form/bookapp')
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('form/bookapp')
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:24:58 --> Undefined property: App\Controllers\Form::$email
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:28:59 --> Undefined property: App\Controllers\Form::$email
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:35:56 --> Undefined property: App\Controllers\Form::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:37:24 --> Call to undefined method Config\Email::email()
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 01:40:04 --> Undefined property: App\Controllers\Form::$email
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:40:36 --> Object of class CodeIgniter\Email\Email could not be converted to string
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 01:41:12 --> Undefined property: App\Controllers\Form::$email
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 01:43:29 --> Undefined property: App\Controllers\Form::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-29 02:04:56 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (No connection could be made because the target machine actively refused it)
+ERROR - 2022-04-29 02:05:46 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (No connection could be made because the target machine actively refused it)
+ERROR - 2022-04-29 02:28:25 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (No connection could be made because the target machine actively refused it)
+CRITICAL - 2022-04-29 02:28:59 --> Call to undefined method App\Controllers\BaseController::Controller()
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Email->index()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 02:32:06 --> Undefined property: App\Controllers\Email::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Email.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Email->index()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 02:34:38 --> Undefined property: App\Controllers\Email::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Email.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Email->index()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-29 02:40:13 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (No connection could be made because the target machine actively refused it)
+CRITICAL - 2022-04-29 02:42:00 --> Object of class CodeIgniter\Email\Email could not be converted to string
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-29 02:43:53 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (No connection could be made because the target machine actively refused it)
+ERROR - 2022-04-29 02:47:15 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (No connection could be made because the target machine actively refused it)
+ERROR - 2022-04-29 02:58:52 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to tls://smtp.gmail.com:465 (No connection could be made because the target machine actively refused it)
+CRITICAL - 2022-04-29 02:58:52 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-29 03:00:31 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-29 03:00:31 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-29 03:00:55 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-29 03:04:54 --> Undefined property: App\Controllers\Form::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 03:09:31 --> Undefined property: App\Controllers\Form::$_ci
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 03:10:11 --> Undefined property: App\Controllers\Form::$load
+#0 C:\xampp\htdocs\final-site\app\Controllers\Form.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->bookapp()
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-29 03:11:04 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 

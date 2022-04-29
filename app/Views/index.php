@@ -310,9 +310,25 @@
                         <div class="well-title">
                             <h2>Book an Appointment</h2>
                         </div>
-                        <form>
+                        <form method="post" action="Form/bookapp">
                             <!-- Form start -->
                             <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="name">Name</label>
+                                        <input id="name" name="name" type="text" placeholder="Name"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="email">Email</label>
+                                        <input id="email" name="email" type="text" placeholder="E-Mail"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!--text input -->
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label" for="name">Name</label>
@@ -331,8 +347,8 @@
                                 <!-- Text input-->
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label class="control-label" for="date">Preferred Date</label>
-                                        <input id="date" name="date" type="text" placeholder="Preferred Date"
+                                        <label class="control-label" for="date">Preferred-Date</label>
+                                        <input id="date" name="date" type="date" placeholder="Preferred Date"
                                             class="form-control input-md">
                                     </div>
                                 </div>
@@ -344,6 +360,20 @@
                                             <option value="8:00 to 9:00">8:00 to 9:00</option>
                                             <option value="9:00 to 10:00">9:00 to 10:00</option>
                                             <option value="10:00 to 1:00">10:00 to 1:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="appointmentfor">Collection- Site</label>
+                                        <select id="appointmentfor" name="appointmentfor" class="form-control">
+                                            <option value="Choose Department">Head Quarter</option>
+                                            <option value="Choose Department">Sample Collection 1</option>
+                                            <option value="Choose Department">Sample Collection 2</option>
+                                            <option value="Choose Department">Sample Collection 3</option>
+                                            <option value="Choose Department">Sample Collection 4</option>
+                                            <option value="Choose Department">Sample Collection 5</option>
                                         </select>
                                     </div>
                                 </div>
@@ -364,7 +394,7 @@
                                 <!-- Button -->
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <button id="singlebutton" name="singlebutton" class="new-btn-d br-2">Make An
+                                        <button class="new-btn-d br-2">Make An
                                             Appointment</button>
                                     </div>
                                 </div>
