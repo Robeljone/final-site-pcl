@@ -52,6 +52,7 @@ class Form extends BaseController
     $email->setSubject('Booking Appointment');
     $email->setMessage('Testing the email class.');
     $email->send();
+    return view('confirmation');
     }
     public function addslider()
     {
