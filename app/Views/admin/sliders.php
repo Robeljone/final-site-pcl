@@ -55,22 +55,16 @@
                 <?php
                 if ($listdat->statu ==  'active')
                                                  {
-                                                    echo("
-                                                    <select>
-                                                    <option></option>
-                                                    <option>Passive</option>
-                                                    <option>Delete</option>
-                                                    </select>
-                                                    ");
-                                                }else
-                                                {
-                                                    echo("
-                                                    <select>
-                                                    <option></option>
-                                                    <option>Active</option>
-                                                    <option>Delete</option>
-                                                    </select>
-                                                    ");
+                                                    echo('
+                                                    <a href="Slider/passive/'.$listdat->id.'">Passive</a></br>
+                                                    <a href="Slider/delete/'.$listdat->id.'">Delete</a>
+                                                      ');
+                                                  }else
+                                                  {
+                                                      echo('
+                                                      <a href="Slider/active/'.$listdat->id.'">Active</a></br>
+                                                      <a href="Slider/delete/'.$listdat->id.'">Delete</a>
+                                                      ');
                                                 }
                                                 
                                                 

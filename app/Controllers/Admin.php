@@ -45,6 +45,9 @@ class Admin extends BaseController
     }
     public function users()
     {
+        helper("custom");
+        if(islogedin())
+        {
         $db = \Config\Database::connect();
         $db = db_connect();
         $sql = "SELECT * FROM user";
@@ -52,15 +55,21 @@ class Admin extends BaseController
         $results = $query->getResult();
         $data['list'] = $results;
         return view('admin/users',$data);
+        }
+        else
+        {
+            return redirect()->to(base_url('admin'));
+        }
     }
     public function signout()
     {
+        session_start();
+        session_unset();
         return view('admin/index');
     }
     public function auth()
     {
         session_start();
-
         $email = $this->request->getVar('uname');
         $password = $this->request->getVar('password');
         $hash = openssl_encrypt($password, "AES-128-ECB", "amanisthebest");
@@ -69,13 +78,15 @@ class Admin extends BaseController
         $sql = "SELECT * FROM user WHERE (username=? AND pass=? AND statu='active')";
         $query=$db->query($sql, [$email,$hash]);  
         $results = $query->getResult();
-        
-       if(count((array)$results)>0){
+       if(count((array)$results)>0)
+       {
         $_SESSION["isuser"]=true;
         $_SESSION["user"]=$results;
         $_SESSION["time"]=date("Y-m-d h:i:s A",strtotime('+30 minutes'));
         return redirect()->to(base_url('dashboard')); 
-       }else{
+       }
+       else
+       {
         $_SESSION["isuser"]=false;
         $_SESSION["error"]="User name OR Password incorect";
         return redirect()->to(base_url('admin'));

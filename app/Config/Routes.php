@@ -39,6 +39,7 @@ $routes->get('sliders', 'Admin::sliders');
 $routes->get('gallery', 'Admin::gallery');
 $routes->get('users', 'Admin::users');
 $routes->get('signout', 'Admin::signout');
+$routes->get('Read/(:num)', 'Read::index/$i');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

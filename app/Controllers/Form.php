@@ -92,4 +92,55 @@ class Form extends BaseController
         return view('index');
     }
 
+    public function delete($id)
+    {
+        $db = \Config\Database::connect();
+        $sql = "SELECT * from blogs where id=?";
+        $query=$db->query($sql, [$id]);  
+        if($query)
+        {
+   $sql2 = "DELETE from blogs where id=?";
+   $query=$db->query($sql2, [$id]); 
+   return redirect()->to(base_url('blogs')); 
+        }
+        else
+        {
+echo "test not";
+        }
+    }
+
+    public function passive($id)
+    {
+        $db = \Config\Database::connect();
+        $sql = "SELECT * from blogs where id=?";
+        $query=$db->query($sql, [$id]);  
+        if($query)
+        {
+   $sql2 = "UPDATE blogs set statu='Passive' where id=?";
+   $query=$db->query($sql2, [$id]); 
+   return redirect()->to(base_url('blogs')); 
+        }
+        else
+        {
+echo "test not";
+        }
+    }
+    public function active($id)
+    {
+        $db = \Config\Database::connect();
+        $sql = "SELECT * from blogs where id=?";
+        $query=$db->query($sql, [$id]);  
+        if($query)
+        {
+   $sql2 = "UPDATE blogs set statu='active' where id=?";
+   $query=$db->query($sql2, [$id]); 
+   return redirect()->to(base_url('blogs')); 
+        }
+        else
+        {
+echo "test not";
+        }
+    }
+    
+
 }

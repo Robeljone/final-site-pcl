@@ -70,22 +70,16 @@
                 <?php
                 if ($listdat->statu ==  'active')
                                                  {
-                                                    echo("
-                                                    <select>
-                                                    <option></option>
-                                                    <option>Passive</option>
-                                                    <option>Delete</option>
-                                                    </select>
-                                                    ");
+                                                    echo('
+                                                  <a href="Form/passive/'.$listdat->id.'">Passive</a></br>
+                                                  <a href="Form/delete/'.$listdat->id.'">Delete</a>
+                                                    ');
                                                 }else
                                                 {
-                                                    echo("
-                                                    <select>
-                                                    <option></option>
-                                                    <option>Active</option>
-                                                    <option>Delete</option>
-                                                    </select>
-                                                    ");
+                                                    echo('
+                                                    <a href="Form/active/'.$listdat->id.'">Active</a></br>
+                                                    <a href="Form/delete/'.$listdat->id.'">Delete</a>
+                                                    ');
                                                 }
                                                 
                                                 

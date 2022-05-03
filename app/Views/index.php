@@ -573,7 +573,7 @@
                                     </div>
                                     <h2><?php echo $blog->title ?></h2>
                                     <p><?php echo $blog->content ?></p>
-                                    <a class="new-btn-d br-2" href="#">Read More <i class="fa fa-angle-double-right"
+                                    <a href="Read/<?php echo $blog->id ?>" class="new-btn-d br-2">Read More <i class="fa fa-angle-double-right"
                                             aria-hidden="true"></i></a>
                                 </div>
                             </div>

@@ -1,0 +1,289 @@
+CRITICAL - 2022-05-03 03:52:17 --> Call to undefined function App\Controllers\islogedin()
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Admin->users()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 04:48:19 --> syntax error, unexpected double-quoted string ">Passive</a></br>"
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('admin/blogs', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Admin.php(24): view('admin/blogs', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Admin->blogs()
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 05:02:04 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\final-site\app\Views\admin\blogs.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('admin/blogs', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Admin.php(24): view('admin/blogs', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Admin->blogs()
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 05:10:56 --> Invalid file: blog.php
+#0 C:\xampp\htdocs\final-site\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog.php')
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('blog', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Form.php(109): view('blog')
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->update('1')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 05:12:53 --> Invalid file: blogs.php
+#0 C:\xampp\htdocs\final-site\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blogs.php')
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('blogs', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Form.php(109): view('blogs')
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Form->update('1')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 05:22:02 --> Call to undefined function App\Controllers\islogedin()
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Admin->users()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 06:21:26 --> Too few arguments to function App\Controllers\Read::index(), 0 passed in C:\xampp\htdocs\final-site\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index()
+#1 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#2 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-03 07:19:08 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:20:17 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:20:21 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:23:55 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:24:34 --> Undefined array key "title"
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:25:56 --> Undefined array key 0
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:27:20 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:28:28 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:28:41 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:30:24 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:36:54 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:42:54 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:43:13 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:43:41 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:43:50 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:46:41 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:48:57 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:49:27 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:52:28 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:52:34 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:52:57 --> Unclosed '{' on line 124
+#0 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#2 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#3 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#4 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-03 07:54:50 --> Undefined variable $blog
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-03 07:55:07 --> Attempt to read property "title" on array
+#0 C:\xampp\htdocs\final-site\app\Views\read.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\final-site\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\final-site\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\final-site\system\Common.php(1089): CodeIgniter\View\View->render('read', Array, true)
+#4 C:\xampp\htdocs\final-site\app\Controllers\Read.php(15): view('read', Array)
+#5 C:\xampp\htdocs\final-site\system\CodeIgniter.php(832): App\Controllers\Read->index('$i')
+#6 C:\xampp\htdocs\final-site\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Read))
+#7 C:\xampp\htdocs\final-site\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final-site\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
