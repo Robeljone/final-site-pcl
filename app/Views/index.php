@@ -324,7 +324,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label" for="email">Email</label>
-                                        <input id="email" name="email" type="text" placeholder="E-Mail"
+                                        <input  name="email" type="text" placeholder="E-Mail"
                                             class="form-control input-md">
                                     </div>
                                 </div>
